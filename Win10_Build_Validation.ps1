@@ -70,8 +70,8 @@ $bld = Get-ItemPropertyvalue 'HKLM:\SOFTWARE\YOURAWESOMECOMPANY\OSDeployment' 'T
 $osver = Get-ItemPropertyvalue 'HKLM:\SOFTWARE\YOURAWESOMECOMPANY\OSDeployment' 'Windows Version'
 $osrls = (Get-ItemProperty -Path c:\windows\system32\hal.dll).VersionInfo.productVersion 
 $arch = (get-wmiobject -class win32_operatingsystem).osarchitecture
-$ResourceFileBIOS = "\\wil-dse01\Users\Windows OS Development\Win10\BIOS_UEFI\$model.txt"
-$ResourceFileDrivers = "\\wil-dse01\Users\Windows OS Development\Win10\$MYBLD\Driver_layer\$model.txt"
+$ResourceFileBIOS = "\\wil-01\Users\Windows OS Development\Win10\BIOS_UEFI\$model.txt"
+$ResourceFileDrivers = "\\wil-01\Users\Windows OS Development\Win10\$MYBLD\Driver_layer\$model.txt"
 $JasonFile = "$PSScriptRoot\Applist.json"
 
 Write-host "Starting to write the output file..."
