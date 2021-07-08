@@ -2,7 +2,7 @@ Win10_Build_Validation2107_YOURAWESOMECOMPANY.ps1.txt
 
 #20170908 -  - Initial build for Win10
 #20170912 -  - added Bios version compare
-#20180130 - - changed source paths to wil-dse01\Users\Windows OS Development
+#20180130 - - changed source paths to wil-01\Users\Windows OS Development
 #20180322 -  - edits for 1805; unattended execution at end of OS Deployment task sequence
 #20200218 -  - added Windows release info ($osrls)
 #20200324 - - replacing YOUROLDAWESOMECOMPANY with YOURAWESOMECOMPANY
