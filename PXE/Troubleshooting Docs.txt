@@ -1,0 +1,3 @@
+DHCP Configuration from 2Pint: https://docs.2pintsoftware.com/ipxe-anywhere/2pxe-server/dhcp-configuration
+
+Troubleshooting iPXE/PXE Anywhere with Wireshark: https://kb.2pintsoftware.com/help/troubleshooting-ipxe-anywhere-with-wireshark 
